@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'hel_lo/welcome'
+  root :to => 'hel_lo#welcome'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
